@@ -207,3 +207,9 @@ Delete a Product. (.NET 4.5)
 	api.Delete(String.Format("/admin/products/{0}.json", id));
 
 ```
+
+## Sample Web Application
+
+This sample application should give you an excellent idea how you will need to perform the required oAuth authentication and API calls.
+
+First you must install MVC3 and then open, compile and run the web application.  Once you go through the authorization steps, you can Add/Edit/Delete Shopify Blog objects.

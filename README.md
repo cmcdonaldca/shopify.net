@@ -10,9 +10,9 @@ Colin McDonald - [colinmcdonald.ca](http://colinmcdonald.ca)
 ## Requirements
 
 * .NET 2.0 or greater
-*  MVC3 to build and run the Sample App
-
-NOTE: Currently if you are using a version of .NET less that 4.5 you will have to create a project and add the Shopify classed to it manually.  But you will have no major code changes to perform.
+	* the DotNet2.0 folder contains a Visual Studio 2010 solution
+	* the DotNet4.5 folder contains a solution created with Visual Studio 11 Beta Express for Web
+		*  MVC3 is required to build and run the Sample App in the DotNet4.5
 
 ## Installation
 
@@ -212,4 +212,6 @@ Delete a Product. (.NET 4.5)
 
 This sample application should give you an excellent idea how you will need to perform the required oAuth authentication and API calls.
 
-First you must install MVC3 and then open, compile and run the web application.  Once you go through the authorization steps, you can Add/Edit/Delete Shopify Blog objects.
+For the DotNet4.5 folder, first you must install MVC3 and then open, compile and run the web application.  
+
+Once you go through the authorization steps, you can Add/Edit/Delete Shopify Blog objects.

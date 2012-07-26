@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Shopify Blogs</h2>
+
+@if (ViewBag.Blogs == null || ViewBag.Blogs.Count == 0)
+{
+    <p>There are no blogs yet.</p>
+} else {
+    <table>
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var blog in ViewBag.Blogs)
+    {
+            <tr>
+                <td>@Html.ActionLink("Edit", "Edit",new { id = blog.id })</td>
+                <td>@Html.ActionLink("Delete", "Delete",new { id = blog.id })</td>
+                <td>@blog.title</td>
+            </tr>
+    }
+        </tbody>
+    </table>
+}
+
+<p>@Html.ActionLink("Add Blog", "Create", "Blogs")</p>

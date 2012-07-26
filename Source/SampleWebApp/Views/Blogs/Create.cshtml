@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create Blog</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <fieldset>
+		<label for="title">Title</label>
+		<input type="text" id="title" name="title" class="form-text" value="" />
+	</fieldset>
+    
+	<fieldset class="form-actions">
+		<input type="submit" value="Submit" />
+	</fieldset>
+}
+
+<p>@Html.ActionLink("Back to List", "Index")</p>

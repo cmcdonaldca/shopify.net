@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Web Developer Express 11
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWebApp", "SampleWebApp\SampleWebApp.csproj", "{034C4475-2291-474B-97FE-EB1CDC388417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopifyAPIAdapterLibrary", "ShopifyAPIAdapterLibrary\ShopifyAPIAdapterLibrary.csproj", "{6FF5A961-591A-47FC-BA85-00B8F44750D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{034C4475-2291-474B-97FE-EB1CDC388417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034C4475-2291-474B-97FE-EB1CDC388417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034C4475-2291-474B-97FE-EB1CDC388417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{034C4475-2291-474B-97FE-EB1CDC388417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF5A961-591A-47FC-BA85-00B8F44750D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF5A961-591A-47FC-BA85-00B8F44750D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF5A961-591A-47FC-BA85-00B8F44750D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF5A961-591A-47FC-BA85-00B8F44750D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

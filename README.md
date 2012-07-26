@@ -5,18 +5,18 @@ Lightweight object-oriented .NET client for the Shopify API
 
 ## Author
 
-	Colin McDonald - [colinmcdonald.ca](http://colinmcdonald.ca)
+Colin McDonald - [colinmcdonald.ca](http://colinmcdonald.ca)
 
 ## Requirements
 
-	* .NET 2.0 or greater
-	*  MVC3 to build and run the Sample App
+* .NET 2.0 or greater
+*  MVC3 to build and run the Sample App
 
-	NOTE: Currently if you are using a version of .NET less that 4.5 you will have to create a project and add the Shopify classed to it manually.  But you will have no major code changes to perform.
+NOTE: Currently if you are using a version of .NET less that 4.5 you will have to create a project and add the Shopify classed to it manually.  But you will have no major code changes to perform.
 
 ## Installation
 
-	* For now, the easiest and only, download the source code and add the project to your solution.
+For now, the easiest and only, download the source code and add the project to your solution.
 
 ## Shopify API Authorization
 
